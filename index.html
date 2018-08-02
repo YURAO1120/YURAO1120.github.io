@@ -323,7 +323,7 @@
                 
               
 
-              <time title="Post created: 2018-08-02 18:08:22 / Updated at: 18:45:37" itemprop="dateCreated datePublished" datetime="2018-08-02T18:08:22+08:00">2018-08-02</time>
+              <time title="Post created: 2018-08-02 18:08:22 / Updated at: 19:51:06" itemprop="dateCreated datePublished" datetime="2018-08-02T18:08:22+08:00">2018-08-02</time>
             
 
             
@@ -375,7 +375,9 @@
 <hr>
 <p>写完之后可以看到和举例的博客还有蛮大差别，这里进行一些优化。</p>
 <ol>
-<li>增加next主题。next是hexo框架下最火热的主题，也是我的个人博客使用的主题。关于hexo其他框架可以自行在google进行搜索。</li>
+<li>增加next主题。next是hexo框架下最火热的主题，也是我的个人博客使用的主题。关于hexo其他框架可以自行在google进行搜索。首先进入username.github.io文件夹下，然后打开gitbash，输入<code>git clone https://github.com/iissnan/hexo-theme-next themes/next</code>然后打开username.github.io/_config.yml文件将theme设置为next。<strong>最重要的一点是看控制台！</strong>实际动手操作的时候我发现clone的 速度很慢，这时候我们需要手动下载源码进行操作。<a href="https://github.com/theme-next/hexo-theme-next/releases" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next/releases</a>这个是最新版next的源码，我是实在拉不动了，直接下的源码，将下好的源码解压缩到username.github.io/themes/，文件夹取名叫next，然后修改_config.yml的theme属性即可。</li>
+<li>为next主题添加动画。这里我添加的是一个2D动画，想了解3D动画或者各种其他动画的自行google，谢谢。打开上一步粘贴的next主题文件夹，在里面找到_config.yml,将canvas_nest属性设置为true即可。</li>
+<li>开启打赏功能。默认支持支付宝、微信、比特币支付。在这里 我们开启支付宝和微信支付。首先存储支付宝和微信的收款码，将其存放在这个路径下：username.github.io/themes/next/source/images。然后打开上一步的_config.yml，在wechatpay后面加上wechatpay.jpg<br>alipay后面加上alipay.jpg。另外#是注释的意思，这两行不要给注释掉了，记得删掉#。</li>
 </ol>
 
           
